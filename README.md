@@ -245,38 +245,9 @@ Copy code
 Handling Race Conditions
 The system prevents race conditions during seat booking by using row-level locking in MySQL. Only one user can book a seat at a time for the same train if multiple users try to book simultaneously.
 
-Project Structure
-The project follows a standard Spring Boot architecture:
 
-bash
-Copy code
-.
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── demo
-│   │   │       └── irctc
-│   │   │           ├── controllers   # Handles HTTP requests
-│   │   │           ├── models        # JPA Entities
-│   │   │           ├── repositories  # Database access
-│   │   │           ├── services      # Business logic
-│   └── resources
-│       └── application.properties    # Database and app configuration
-└── pom.xml                           # Maven configuration
-Known Issues
-None at the moment.
 
-markdown
-Copy code
 
----
-
-### Key Points of the README:
-1. **Tech Stack**: Provides a clear overview of the technologies used.
-2. **Project Setup**: Offers detailed setup instructions from cloning the repository to running the server.
-3. **API Endpoints**: Describes both public, user, and admin APIs with sample requests.
-4. **Race Condition Handling**: Explains how race conditions are managed during seat booking.
-5. **Project Structure**: Gives an overview of the Spring Boot project structure.
 
 
 
