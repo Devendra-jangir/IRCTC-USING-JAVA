@@ -29,7 +29,7 @@ Follow these steps to set up and run the project:
 
 First, clone the GitHub repository to your local machine:
 
-```bash
+bash
 git clone https://github.com/Devendra-jangir/IRCTC-USING-JAVA.git
 
 
